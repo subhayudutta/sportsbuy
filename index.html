@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav id="navbar">
+        <div class="nav-brand">
+            <span>Alexa</span>
+        </div>
+        <div onClick="toggle()" class="toggle">
+            <i class="uil uil-bars toggle-icon"></i>
+        </div>
+        <div onclick="darkTheme()" class="dark">
+            <i class="uil uil-moon dark-icon" id="moon"></i>
+        </div>
+        <div class="nav-menu">
+            <ul class="nav-content" id="nav-t">
+                <li><a href="#home">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Account</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- home section -->
+    <section class="home container" id="home">
+        <div class="row">
+            <div class="home-content" id="h-the">
+                <p class="title">Give Your Workout a new Style!</p>
+                <p class="subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quaerat sed hic
+                    sapiente natus doloremque error molestiae adipisci quo consequuntur!</p>
+                <div class="home-btn">Explore Now <i class="uil uil-arrow-right btn-icon"></i></div>
+            </div>
+            <div class="home-img">
+                <img src="images/image1.png" alt="" class="home-img">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- product section -->
+    <section class="sell container" id="products">
+        <h1 style="font-size: 40px;text-align: center;">Our Products</h1>
+        <div class="row1">
+            <div class="content1">
+                <div class="details">
+                    <img src="images/product-1.jpg" alt="" class="pr1-img">
+                    <h3 class="name">T-shirt</h3>
+                    <div style="margin-left: 60px;"><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i>
+                    </div>
+                    <p class="price">Rs.680</p>
+                </div>
+            </div>
+            <div class="content1">
+                <div class="details">
+                    <img src="images/product-2.jpg" alt="" class="pr1-img">
+                    <h3 class="name">Shoes</h3>
+                    <div style="margin-left: 60px;"><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i>
+                    </div>
+                    <p class="price">Rs.550</p>
+                </div>
+            </div>
+            <div class="content1">
+                <div class="details">
+                    <img src="images/product-3.jpg" alt="" class="pr1-img">
+                    <h3 class="name">Jeans</h3>
+                    <div style="margin-left: 60px;"><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i>
+                    </div>
+                    <p class="price">Rs.1440</p>
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="content1">
+                <div class="details">
+                    <img src="images/product-4.jpg" alt="" class="pr1-img">
+                    <h3 class="name">T-shirt</h3>
+                    <div style="margin-left: 60px;"><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i>
+                    </div>
+                    <p class="price">Rs.680</p>
+                </div>
+            </div>
+            <div class="content1">
+                <div class="details">
+                    <img src="images/product-5.jpg" alt="" class="pr1-img">
+                    <h3 class="name">Shoes</h3>
+                    <div style="margin-left: 60px;"><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i>
+                    </div>
+                    <p class="price">Rs.650</p>
+                </div>
+            </div>
+            <div class="content1">
+                <div class="details">
+                    <img src="images/product-6.jpg" alt="" class="pr1-img">
+                    <h3 class="name">Jeans</h3>
+                    <div style="margin-left: 60px;"><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i><i
+                            class="uil uil-star rate-img"></i><i class="uil uil-star rate-img"></i>
+                    </div>
+                    <p class="price">Rs.1200</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- contact section -->
+    <footer class="last" id="contact">
+        <h1 style="font-size: 40px;text-align: center; margin-bottom: 50px;padding-top: 30px;">Contact Us</h1>
+        <div class="row3">
+            <i class="uil uil-facebook ic"></i>
+            <i class="uil uil-instagram-alt ic"></i>
+            <i class="uil uil-twitter ic"></i>
+            <i class="uil uil-youtube ic"></i>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
